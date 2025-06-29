@@ -1,0 +1,119 @@
+.amountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 59px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+}
+
+.paymentDetails {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.paidTo{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bankName{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+
+
+.bankDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 7px;
+    gap: 5px
+}
+
+.dateTime {
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    padding-top: 2px;
+}
+
+.upiContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+.upiText{
+    font-size: 6px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: -4px;
+}
+.upiContainer img {
+  display: block;
+  max-width: 100px;
+  margin-top: 0;    
+  padding: 0;        
+}
+.actionBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 29px;
+    padding-bottom: 74px;
+}
+
+.ssBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 19px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #95B0DC;
+    letter-spacing: 0.04em;
+    border: 1px solid #7E817F;
+    border-radius: 100px;
+    gap: 10px;
+}
+.doneBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 28px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #95B0DC;
+    color: #062E6F;
+    letter-spacing: 0.04em;
+    border-radius: 100px;
+    gap: 10px;
+}
+
+.screenshotWrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #131314; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}

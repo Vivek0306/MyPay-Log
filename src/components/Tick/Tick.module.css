@@ -1,0 +1,10 @@
+.tickContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tick {
+    position: relative;
+    padding-top: 11.38em;
+}

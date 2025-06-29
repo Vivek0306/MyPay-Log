@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./MyPay Logs_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPay Logs
+    </title>
+  <style type="text/css" data-vite-dev-id="D:/Projects/React/mypay-log/src/index.css">@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  font-family: Google Sans, Open Sans, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #131314;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+</style><style type="text/css" data-vite-dev-id="D:/Projects/React/mypay-log/src/App.css">#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+</style><style type="text/css" data-vite-dev-id="D:/Projects/React/mypay-log/src/components/Home/Home.module.css">._container_1gd61_1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+._title_1gd61_19 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+._header_1gd61_33{
+    top: 0;
+}
+
+._body_1gd61_41{
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+._button_1gd61_57 {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}</style><style type="text/css" data-vite-dev-id="D:/Projects/React/mypay-log/src/components/Amount/Amount.module.css">._container_1xgx1_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+._header_1xgx1_21{
+    top: 0;
+}
+._title_1xgx1_27 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+._body_1xgx1_39{
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+._form_1xgx1_53 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+._input_1xgx1_69 {
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+._button_1xgx1_83 {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+._navBtn_1xgx1_103 {
+padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: #c7c7c7;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; 
+}</style><style type="text/css" data-vite-dev-id="D:/Projects/React/mypay-log/src/components/Tick/Tick.module.css">._tickContainer_16v0r_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._tick_16v0r_1 {
+    position: relative;
+    padding-top: 11.38em;
+}</style><style type="text/css" data-vite-dev-id="D:/Projects/React/mypay-log/src/components/Payment/Payment.module.css">._amountContainer_1a3pn_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 68px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+}
+
+._paymentDetails_1a3pn_23 {
+    padding-top: 44px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+._paidTo_1a3pn_41{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+._bankName_1a3pn_51{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+
+
+._bankDetails_1a3pn_67 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 12px;
+    gap: 5px
+}
+
+._dateTime_1a3pn_91 {
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    padding-top: 7px;
+}
+
+._upiContainer_1a3pn_103 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 232px;
+}
+._upiText_1a3pn_117{
+    font-size: 6px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+._actionBtns_1a3pn_127{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}</style></head>
+  <body>
+    <div id="root"><div><div class="_tickContainer_16v0r_1"><div class="_tick_16v0r_1"><img alt="Success Tick" src="./MyPay Logs_files/blue_tick.png"></div></div><div class="_amountContainer_1a3pn_1">₹10,00,000.00</div><div class="_paymentDetails_1a3pn_23"><div class="_paidTo_1a3pn_41">Paid to</div><div class="_bankName_1a3pn_51">Manju Nair</div><div class="_bankDetails_1a3pn_67"><img alt="" src="./MyPay Logs_files/Shield.png"><div style="letter-spacing: 0.05em;">Banking name:</div><div style="letter-spacing: 0.06em;">MANJU MANOJ NAIR</div></div><div class="_dateTime_1a3pn_91">29 June 2025, 05:20 pm</div></div><div class="_upiContainer_1a3pn_103"><div class="_upiText_1a3pn_117">POWERED BY</div><img alt="UPI Logo" src="./MyPay Logs_files/UPI.png"></div><div class="_actionBtns_1a3pn_127"><div><img alt="Share Button" src="./MyPay Logs_files/Share.png">Share screenshot</div><div>Done</div></div></div></div>
+    <script type="module" src="./MyPay Logs_files/main.tsx"></script>
+  
+
+</body></html>
